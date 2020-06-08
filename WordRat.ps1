@@ -7,7 +7,7 @@ function post_http($url,$ReqBody)
     $http_request = New-Object -ComObject Msxml2.XMLHTTP 
     $http_request.open("POST", $url, $false) 
     $http_request.setRequestHeader("Content-type","application/json") 
-    $http_request.setRequestHeader("X-Auth-Token","uZ4AWxDB0wuOcQZWgmdpEUUDgQKLMYBVtb6wh2GGR") 
+    $http_request.setRequestHeader("X-Auth-Token","<YOUR PASTE.EE TOKEN GOES HERE>") 
     $http_request.setRequestHeader("Content-length", $body.length); 
     $http_request.setRequestHeader("Connection", "close") 
     $http_request.send($ReqBody) 
