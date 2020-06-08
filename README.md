@@ -1,6 +1,6 @@
 # WordRat
 
-WordRAt runs in the background and leaks the content of open Word documents over HTTPS.
+WordRat runs in the background and leaks the content of open Word documents over HTTPS.
 
 The script communicates with Word processes using the Marshal library's Word.Application COM object.
 
