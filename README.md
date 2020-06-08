@@ -1,7 +1,5 @@
 # WordRat
 
-# Description
-
 The script communicates with Word processes using the Marshal library's Word.Application COM object.
 
 The script goes over all the open documents' contents using the Content.Text property, encodes the data with base64 (in case of special characters- to avoid syntax errors while sending over http), then uses paste.ee's API and exfiltrates the data with HTTP requests (by using the Msxml2.XMLHTTP com object). 
